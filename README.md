@@ -6,7 +6,10 @@ With that in mind, I designed my website like the surface of the ocean, simple a
 It is necessary to follow the prototype of the UX Design course, but that doesn’t mean that I have to make everything exactly the identical. Considering time and efficiency, certain compromises must be made. Also, keeping all the previous work/project in an organized way is essential, or I couldn’t have found what I wanted easily. 
 # Reference
 ## Libraries
-Bootstrap, Awesome font, Google map.
+* Bootstrap
+* Foundation
+* Awesome Font
+* Google map
 ## Font
 Google font
 ## Image
