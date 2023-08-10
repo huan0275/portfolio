@@ -1,0 +1,80 @@
+body {
+    background-image: url(/images/sea_bottom.png);
+}
+
+.nav-item:hover{
+     
+        background-color:#949C93;  
+        border-radius: .4rem;
+        transform:scale(1.1);
+        transition: transform 0.3s ease-in-out;
+    
+}
+h1{
+    font-weight: 600;
+}
+.offcanvas .offcanvas-body{
+        width: 100%;
+        height: 100%;
+        top: 0;
+  }
+
+  /* .offcanvas-body .navbar-nav .nav-item .nav-link{
+    color: white;
+  }
+   */
+.submit {
+    background-color: #F1E6D2;
+    color: #0E333E;  
+}
+
+ 
+.submit:hover {
+    background-color: #0E333E; 
+    color: #F1E6D2;  
+}
+
+.video_container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    
+  }
+  
+  video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    object-fit: cover;
+  }
+
+  .navbar {
+    background-color: transparent; 
+  }
+
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30' width='30' height='30'%3E%3Cline x1='2' y1='6' x2='28' y2='6' style='stroke:white; stroke-width:2;'/%3E%3Cline x1='2' y1='14' x2='28' y2='14' style='stroke:white; stroke-width:2;'/%3E%3Cline x1='2' y1='22' x2='28' y2='22' style='stroke:white; stroke-width:2;'/%3E%3C/svg%3E");
+  }
+
+  .navbar-toggler{
+    border-color: white;
+  }
+
+  .about-container {
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.3);   
+    padding:2rem;
+    
+}
+
+  @media screen and (min-width:550px)
+  {
+    .offcanvas-body .navbar-nav .nav-item .nav-link{
+        color: white;
+      }
+  }
+  
